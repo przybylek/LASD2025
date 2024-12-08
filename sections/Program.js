@@ -6,7 +6,7 @@ import Col from 'react-bootstrap/Col'
 import React from 'react'
 import Clock from 'react-live-clock'
 
-/*
+
 const Program = () => (
     <Container className="bg-white section p-4 my-5 rounded">
       <a className='target' id='program'/>
@@ -19,8 +19,9 @@ const Program = () => (
 
 
 )
-*/
 
+
+/*
 const Program = () => (
     <Container className="bg-white section p-4 my-5 rounded">
     <a className='target' id='program'/>
@@ -56,6 +57,7 @@ Jan Cychnerski and Tomasz Dziubich</em>)</td></tr>
     </Table>
   </Container>
 )
+*/
 
 export default Program
 

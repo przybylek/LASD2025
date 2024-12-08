@@ -5,6 +5,12 @@ import Card from 'react-bootstrap/Card'
 
 const conferences = [
   {
+    title: "LASD@ISD'24",
+    location: "Sopot 2024",
+    website: "https://y2024b.lasd.pl",
+    proceedings: "https://aisel.aisnet.org/isd2014/proceedings2024/agile/"
+  },
+  {
     title: "LASD@SAC'24",
     location: "Avila 2024",
     website: "https://y2024.lasd.pl",
