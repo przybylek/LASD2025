@@ -9,7 +9,7 @@ const Submissions = () => (
     <a className='target' id='submissions'/>
     <h2 className='display-4 anchor mb-3'>Submissions</h2>
     <p>
-      We invite research papers in three categories: Full Papers (12 pages), Short Papers (8 pages), and Posters (4 pages). Authors have the option to add a single extra page at a supplementary cost (regardless of the submission category). Papers must be in English and present original, not already published research. Papers should be submitted in the PDF format using the ISD <a href="https://isd2024.ug.edu.pl/call-for-papers/">template</a>.
+      We invite research papers in three categories: Full Papers (12 pages), Short Papers (8 pages), and Posters (4 pages). Authors have the option to add a single extra page at a supplementary cost (regardless of the submission category). Papers must be in English and present original, not already published research. Papers should be submitted in the PDF format using the ISD <a href="https://isd2025.fon.bg.ac.rs/submission/">template</a>.
     </p>
       <Row className="justify-content-center my-3">
         <Button className="btn-lg" href='https://easychair.org/conferences/?conf=isd-2024'>Submit a paper</Button>
