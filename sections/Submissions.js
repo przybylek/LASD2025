@@ -12,7 +12,7 @@ const Submissions = () => (
       We invite research papers in three categories: Full Papers (12 pages), Short Papers (8 pages), and Posters (4 pages). Authors have the option to add a single extra page at a supplementary cost (regardless of the submission category). Papers must be in English and present original, not already published research. Papers should be submitted in the PDF format using the ISD <a href="https://isd2025.fon.bg.ac.rs/submission/">template</a>.
     </p>
       <Row className="justify-content-center my-3">
-        <Button className="btn-lg" href='https://easychair.org/conferences/?conf=isd-2024'>Submit a paper</Button>
+        <Button className="btn-lg" href='https://easychair.org/conferences/?conf=isd2025'>Submit a paper</Button>
       </Row>
     <p>
       Each submission will be reviewed by at least three program committee members. To facilitate the double-blind reviewing, authors are kindly requested to provide the paper WITHOUT any reference to any of the authors, including the authors' personal details, the acknowledgments section of the paper and any other reference that may disclose the authors' identity.
