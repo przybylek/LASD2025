@@ -57,6 +57,7 @@ export const countryCodes = {
     'Cuba': 'CU',
     'Cyprus': 'CY',
     'Czech Republic': 'CZ',
+    'Czechia': 'CZ',
     'Denmark': 'DK',
     'Djibouti': 'DJ',
     'Dominica': 'DM',
