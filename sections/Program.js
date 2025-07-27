@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col'
 import React from 'react'
 import Clock from 'react-live-clock'
 
+/*
 
 const Program = () => (
     <Container className="bg-white section p-4 my-5 rounded">
@@ -15,49 +16,48 @@ const Program = () => (
           TBA...
       </p>
     </Container>
-
-
-
 )
+*/
 
-
-/*
 const Program = () => (
     <Container className="bg-white section p-4 my-5 rounded">
     <a className='target' id='program'/>
     <h2 className='display-4 anchor mb-3'>Program</h2>
 
 
-
     <Table bordered className="mt-5">
       <tbody>	
 
-        <tr className='text-center table-primary'><th>Mon., August 26th</th><th>Session I (Room C-21); chaired by <em>Tomas Gustavsson</em></th></tr>
-        <tr><td className='text-nowrap'>13:40 - 14:00</td><td>Unlocking Feedback in Remote Retrospectives: Games, Anonymity, and Continuous Reflection in Action (<em>Yen Ying Ng, Bartosz Leśniewski, Krzysztof Marek, Michael Neumann and Jacek Trzesicki</em>)</td></tr>
-        <tr><td className='text-nowrap'>14:00 - 14:20</td><td>On the Business Analyst's Responsibilities in an Agile Software Project - a Multi-Method Study (<em>Mateusz Kwiatkowski and Aleksander Jarzebowicz</em>)</td></tr>
-        <tr><td className='text-nowrap'>14:20 - 14:40</td><td>Waste and Its Elimination in Software Development Projects in Europe (<em>Piotr Sycz and Elzbieta Wojnicka-Sycz</em>)</td></tr>
-        <tr><td className='text-nowrap'>14:40 - 15:00</td><td>Impact of Work from Home on Agile Software Project Execution – the Empirical Study (<em>Jakub Chabik</em>)</td></tr>
+        <tr className='text-center table-primary'><th>Wed., September 3rd</th><th>Session 3B (Room 2); chaired by <em>Anna Sołtysik-Piorunkiewicz and Witold Chmielarz</em></th></tr>
+<tr><td className='text-nowrap'>12:00 - 12:30</td><td>Integrating Flow into Portfolio Agility – An Exploratory Study(<em>Joseph Puthenpurackal Chakko, Tim Huygh and Steven De Haes</em>)</td></tr>
+<tr><td className='text-nowrap'>12:30 - 13:00</td><td>How did the Emergence of ChatGPT Impact Stack Overflow? – A Literature Review(<em>Daniel Staegemann, Mariia Rizun, Christian Haertel, Matthias Pohl, Christian Daase and Klaus Turowski</em>)</td></tr>
+<tr><td className='text-nowrap'>13:00 - 13:30</td><td>Overburdened by Debt: A Quantitative Study of Process Debt's Effect on Workload in Agile Teams(<em>Tomas Gustavsson, Muhammad Ovais Ahmad and Hina Saeeda</em>)</td></tr>
+<tr><td className='text-nowrap'>13:30 - 14:00</td><td>Drawing Based Game for Teaching Empirysm and Continuous Improvement in Scrum(<em>Krzysztof Marek and Kamila Martyniuk-Sienkiewicz</em>)</td></tr>
 
         <tr><th className='text-center table-secondary' colSpan={2}></th></tr>
-        <tr className='text-center table-primary'><th>Mon., August 26th</th><th>Poster Exhibit (Hallway - 0 floor)</th></tr>
-        <tr><td className='text-nowrap' rowSpan={2}>11:00 - 11:40<br />15:00 - 15:40</td><td>Social Sustainability and Large-Scale Agile Software Development (<em>Muhammad Ovais Ahmad and Tomas Gustavsson</em>)</td></tr>
-        <tr><td>Leveraging Generative AI Tools for UX Design in Lean and Agile Projects (<em>Marcin Sikorski</em>)</td></tr>
+        <tr className='text-center table-primary'><th>Wed., September 3rd</th><th>Session 4B (Room 2); chaired by <em>Karolina Muszyńska</em></th></tr>
+<tr><td className='text-nowrap'>15:00 - 15:05</td><td>10th Anniversary of LASD: History & Impact (<em>Adam Przybyłek</em>)</td></tr>
+<tr><td className='text-nowrap'>15:05 - 15:35</td><td>Impact of Agile Software Development Team Leaders’ Mindset on Dynamic Capabilities for Achieving Organizational Agility(<em>Maciej Kucharski, Wioleta Kucharska and Jari Jussila</em>)</td></tr>
+<tr><td className='text-nowrap'>15:35 - 16:05</td><td>A Case Study on Dual-Track Development in Agile Software Development(<em>Henning Rückborn and Eva-Maria Schön</em>)</td></tr>
+<tr><td className='text-nowrap'>16:05 - 16:35</td><td>User Involvement in Relational Digital Transformation: A Case Study of Agile Software Development Practices in a Large Organization(<em>Morteza Moalagh, Vegard Svesengen, Babak A. Farshchian and Marius Mikalsen</em>)</td></tr>
 
         <tr><th className='text-center table-secondary' colSpan={2}></th></tr>
-        <tr className='text-center table-primary'><th>Tus., August 27th</th><th>Session II (Room C-21); chaired by <em>Emilio Insfran</em></th></tr>
-        <tr><td className='text-nowrap'>11:40 - 12:00</td><td>Development of a Measurement Instrument for Process Debt Detection in Agile Software Development Organizations (<em>Tomas Gustavsson, Muhammad Ovais Ahmad and Hina Saeeda</em>)</td></tr>
-        <tr><td className='text-nowrap'>12:00 - 12:20</td><td>Assessment of the relevance of best practices in the development of medical R&D projects based on machine learning (<em>	
-Jan Cychnerski and Tomasz Dziubich</em>)</td></tr>
-        <tr><td className='text-nowrap'>12:20 - 12:40</td><td>Process Management as a Foundation for Integrating Agility and Discipline in Information Systems Development – A Study of Practices (<em>Jerzy Auksztol</em>)</td></tr>
+        <tr className='text-center table-primary'><th>Thu., September 4th</th><th>Session 8 - Poster Exhibit (Room 6)</th></tr>
+        <tr><td className='text-nowrap' rowSpan={2}>10:30-11:30</td><td>Advanced Data Processing Algorithms and Structures for Technical Debt Management with Generative Artificial Intelligence(<em>Adam Czyżewski and Aneta Poniszewska-Maranda</em>)</td></tr>
+        <tr><td>AI-Assisted HCI Design and Sprint Cadence in Scrum Software Development(<em>Slawomir Ostrowski</em>)</td></tr>
 
-
-
+        <tr><th className='text-center table-secondary' colSpan={2}></th></tr>
+        <tr className='text-center table-primary'><th>Thu., September 4th</th><th>Session 9B (Room 2); chaired by <em>TBA</em></th></tr>
+<tr><td className='text-nowrap'>12:00 - 12:20</td><td>AI-based Functionalities for Project Communication Management(<em>Karolina Muszyńska and Susanne Marx</em>)</td></tr>
+<tr><td className='text-nowrap'>12:20 - 12:40</td><td>Determinants of IT Project Management. The Experts Comparative Study between Poland and Serbia(<em>Anna Sołtysik-Piorunkiewicz, Witold Chmielarz, Angela Fajsi and Slobodan Moraca</em>)</td></tr>
+<tr><td className='text-nowrap'>12:40 - 13:00</td><td>Non-functional Requirements Documentation Techniques in Agile Software Development: A Focus Group Study(<em>Dominik Kubiaczyk and Aleksander Jarzębowicz</em>)</td></tr>
+<tr><td className='text-nowrap'>13:00 - 13:20</td><td>Effects of Remote Work on Communication in Agile Software Development: Is the Focus Still on People and Collaboration?(<em>Bärbel Bissinger, Michael Fellmann, Hauke Pruss and Nikolas Rödel</em>)</td></tr>
+<tr><td className='text-nowrap'>13:20 - 13:40</td><td>Comparing Code Generation Capabilities of ChatGPT-4o and DeepSeek V3 in Solving TypeScript Programming Problems(<em>Filip Stamenković, Jelica Stanojević and Dejan Simić</em>)</td></tr>
 
       </tbody>
     </Table>
   </Container>
 )
-*/
 
 export default Program
 
